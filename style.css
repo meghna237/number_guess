@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #b0b3d0;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.box {
+    margin: 240px;
+    width: 300px;
+    padding: 100px;
+    background-color: #3041d5;
+    color: white;
+    border-radius: 50px;
+}
+#submit {
+    background-color: #b0b3d0;
+    padding: 7px;
+    border-radius: 10px;
+}
+#guess {
+    padding: 4px;
+}

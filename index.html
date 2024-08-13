@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="box">
+        <h1>Number Game</h1>
+        <br>
+        <p>Guess a number between 1 and 100</p><br>
+        <form onsubmit="return numberGuess()">
+            <input id="guess" type="number" min="1" max="100">
+            <input type="submit" value="Submit" id="submit">
+            <br>
+            <div id="msg"></div>
+        </form>
+    </div>
+</body>
+</html>
